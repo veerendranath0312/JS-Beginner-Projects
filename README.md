@@ -17,3 +17,7 @@
    - [Click here for demo](https://codepen.io/veerendranath0312/full/rNWPNYx)
 9. Image Password Strength
    - [Click here for demo](https://codepen.io/veerendranath0312/full/vYybZNm)
+10. Show or Hide Password
+   - [Click here for demo](https://codepen.io/veerendranath0312/full/RwKPVyG)
+11. Toggle Theme
+   - [Click here for demo](https://codepen.io/veerendranath0312/full/yLgNozg)
