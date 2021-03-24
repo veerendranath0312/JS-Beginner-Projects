@@ -1,0 +1,74 @@
+:root {
+  --background-color: #e6e7ee;
+  --border-color: #d1d9e6;
+  --text-color: #44476a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background: var(--background-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text-color);
+}
+
+.container {
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+input[type='password'],
+input[type='text'] {
+  padding: 8.5px;
+  border: none;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-right: 0;
+  box-shadow: inset 2px 2px 4px #b8b9be, inset -2px -2px 4px #fff;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.form-group i {
+  padding: 8.5px 15px;
+  border: 1px solid var(--border-color);
+  border-left: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  transform: all 0.25s;
+}
+
+#btn {
+  cursor: pointer;
+}
+
+.form-group #show {
+  font-size: 15px;
+}
+
+.form-group #hide {
+  display: none;
+  font-size: 14px;
+}
