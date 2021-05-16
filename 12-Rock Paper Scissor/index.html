@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d692c6ffbe.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock Paper Scissor</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Score board -->
+    <div class="score-board">
+      <p>Computer: <span id="computer-score">0</span></p>
+      <p>You: <span id="player-score">0</span></p>
+    </div>
+
+    <!-- Rock paper scissor buttons -->
+    <div class="player-options">
+      <button class="btn rock"><i class="far fa-hand-rock"></i></button>
+      <button class="btn paper"><i class="far fa-hand-paper"></i></button>
+      <button class="btn scissor"><i class="far fa-hand-scissors"></i></button>
+    </div>
+
+    <!-- Description -->
+    <div class="description hidden">
+      <p>You choose <span id="player-option">rock</span></p>
+      <p>Computer choose <span id="computer-option">scissor</span></p>
+      <span id="title" class="gray">YOU WIN</span>
+    </div>
+
+    <!-- Reset button -->
+    <div class="reset">
+      <button id="reset"><i class="fas fa-redo"></i></button>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

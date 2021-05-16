@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #10191b;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background: #fff;
+  color: #10191b;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 35px;
+}
+
+.score-board p {
+  font-size: 14px;
+}
+
+#computer-score,
+#player-score {
+  font-weight: 600;
+}
+
+.player-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.btn,
+#reset {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: #10191b;
+  color: white;
+  cursor: pointer;
+}
+
+.player-options .btn {
+  width: 75px;
+  height: 75px;
+  font-size: 2rem;
+}
+
+.description {
+  text-align: center;
+}
+
+.description p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#player-option,
+#computer-option {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#title {
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 30px 5px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.green {
+  background: rgb(208, 255, 208);
+  color: rgb(80, 184, 80);
+}
+
+.red {
+  background-color: rgb(255, 167, 167);
+  color: rgb(199, 90, 90);
+}
+
+.gray {
+  background: rgb(197, 197, 197);
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+.reset {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#reset {
+  padding: 10px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 15px;
+  }
+}
