@@ -21,3 +21,7 @@
        - [Click here for demo](https://codepen.io/veerendranath0312/full/RwKPVyG)
 11. Toggle Theme
        - [Click here for demo](https://codepen.io/veerendranath0312/full/yLgNozg)
+12. Rock Paper Scissors
+       - [Click here for demo](https://codepen.io/veerendranath0312/pen/wvJWrLP)
+13. FAQ
+       - [Click here for demo](https://codepen.io/veerendranath0312/pen/mdWEBNR)
