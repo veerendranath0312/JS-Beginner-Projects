@@ -25,3 +25,5 @@
        - [Click here for demo](https://codepen.io/veerendranath0312/pen/wvJWrLP)
 13. FAQ
        - [Click here for demo](https://codepen.io/veerendranath0312/pen/mdWEBNR)
+14. Event KeyCodes
+       - [Click here for demo](https://codepen.io/veerendranath0312/full/MWpjeeZ)
