@@ -27,3 +27,5 @@
        - [Click here for demo](https://codepen.io/veerendranath0312/pen/mdWEBNR)
 14. Event KeyCodes
        - [Click here for demo](https://codepen.io/veerendranath0312/full/MWpjeeZ)
+15. RGB Slider
+       - [Click here for demo](https://codepen.io/veerendranath0312/full/gOmwzqy)
