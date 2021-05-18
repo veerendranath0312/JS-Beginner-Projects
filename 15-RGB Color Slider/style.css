@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.range-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+input[type='range'] {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.color-code {
+  text-align: center;
+}
+
+spam {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  background: slateblue;
+  padding: 5px 30px 7px 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
