@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cardo', serif;
+  font-style: italic;
+}
+
+.container {
+  width: 450px;
+  height: 715px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #eee;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav ul li {
+  width: 100%;
+  text-align: center;
+}
+
+nav ul a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}
+.hidden {
+  display: none;
+}
