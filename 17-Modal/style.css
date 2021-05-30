@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  background: rgb(236, 236, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#subscribe {
+  display: inline-block;
+  font-size: 16pt;
+  padding: 18px 32px;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  background: rgb(51, 51, 51);
+  box-shadow: 0 20px 42px -12px rgba(51, 51, 51, 0.35);
+  color: #fff;
+  outline: none;
+}
+
+#subscribe:hover {
+  background-color: #121212;
+}
+
+.overlay {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(61, 61, 61, 0.5);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 260px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 10;
+}
+
+.modal #done {
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.close {
+  position: absolute;
+  display: inline-block;
+  right: 15px;
+  top: 15px;
+  border: 1px solid rgb(236, 236, 236);
+  outline: none;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: rgb(163, 163, 163);
+  cursor: pointer;
+}
+
+.modal p {
+  font-size: 12px;
+  margin-top: 15px;
+  color: rgb(163, 163, 163);
+}
+
+.hidden {
+  display: none;
+}
