@@ -31,3 +31,5 @@
        - [Click here for demo](https://codepen.io/veerendranath0312/full/gOmwzqy)
 16. Hamburger Menu
        - [Click here for demo](https://codepen.io/veerendranath0312/full/RwpVMPq)
+17. Modal
+       - [Click here for demo](https://codepen.io/veerendranath0312/full/mdWqXPy)
