@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121212;
+  color: #f7f7f7;
+  height: 100vh;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
+}
+
+.time {
+  width: 100%;
+}
+
+h1 {
+  font-size: 15vw;
+}
+
+.message {
+  margin-bottom: 15px;
+  font-size: 2vh;
+  font-weight: 400;
+}
+
+.date {
+  font-size: 1.5vh;
+}
