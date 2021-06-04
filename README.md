@@ -35,3 +35,5 @@
        - [Click here for demo](https://codepen.io/veerendranath0312/full/mdWqXPy)
 18. Coountdown Timer
        - [Click here for demo](https://codepen.io/veerendranath0312/full/gOmvqoV)
+19. Digital Clock
+       - [Click here for demo](https://codepen.io/veerendranath0312/full/MWpQKpW)
