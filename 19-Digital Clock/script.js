@@ -15,9 +15,9 @@ setInterval(() => {
 
 if (hour >= 0 && hour < 12) {
   timePeriod.textContent = 'Morning';
-} else if (hour >= 12 && hour < 6) {
+} else if (hour >= 12 && hour < 18) {
   timePeriod.textContent = 'Afternoon';
-} else {
+} else if (hour >= 18 && hour <= 23) {
   timePeriod.textContent = 'Evening';
 }
 
