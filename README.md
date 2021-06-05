@@ -1,4 +1,5 @@
 # JS-Beginner-Projects
+JavaScript projects for Absolute Beginners 👨🏻‍💻
 1. Change Background Color
    - [click here for demo](https://codepen.io/veerendranath0312/full/eYBrrJY) 
 2. Color Swap
